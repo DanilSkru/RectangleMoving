@@ -13,7 +13,7 @@ public class RectangleMoving {
 class GUIrectangleMoving extends JFrame{
     JLabel label = new JLabel();
     public GUIrectangleMoving() {
-        super("MovingDiagonal");
+        super("MovingRectangle");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ImageIcon ocean = new ImageIcon("ocean.jpg");
         setContentPane(new JLabel(ocean));
